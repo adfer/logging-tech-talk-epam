@@ -6,15 +6,15 @@
 	<groupId>com.epam</groupId>
 	<artifactId>logging-tech-talk</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>logging-tech-talk</name>
 	<description></description>
 
 	<modules>
-		<module>billing-service</module>
 		<module>status-service</module>
 		<module>delivery-service</module>
+		<module>billing-service</module>
 	</modules>
 
 	<parent>

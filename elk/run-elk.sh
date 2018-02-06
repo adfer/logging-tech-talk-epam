@@ -1,0 +1,1 @@
+docker run --rm -p 5601:5601 -p 9200:9200 -p 5044:5044 -p 5045:5045 -it --name elk -v /Users/adrianferenc/Workspaces/GitHub/logging-tech-talk-epam/elk/configs/logstash.conf:/etc/logstash/conf.d/30-output.conf sebp/elk

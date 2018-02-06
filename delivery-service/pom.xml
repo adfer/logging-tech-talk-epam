@@ -30,11 +30,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.epam</groupId>
-			<artifactId>status-service</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 	</dependencies>
 
 	<build>

@@ -18,15 +18,15 @@ public class DeliveryController {
   @Autowired
   private StatusService statusService;
 
+  @GetMapping("track")
+  public Status trackPackage(@RequestParam String packageId) {
+    return statusService.getPackageStatus(packageId);
+  }
+
   @PostMapping("send")
   public ResponseEntity<Object> sendNewPackage(@RequestBody PackageInfoDTO packageInfoDTO) {
     deliveryService.sendNewPackage(packageInfoDTO);
     return ResponseEntity.ok().build();
-  }
-
-  @GetMapping("track")
-  public Status trackPackage(@RequestParam String packageId) {
-    return statusService.getPackageStatus(packageId);
   }
 
 }

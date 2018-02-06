@@ -22,3 +22,5 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+elk/filebeat-6.1.3-darwin-x86_64
